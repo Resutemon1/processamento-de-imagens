@@ -1,3 +1,10 @@
 from PIL import Image
-image = Image.open("vampeta.jpg")
-image.show("vampeta")
+imagem = Image.open("vampeta.jpg")
+imagem.show()
+print(imagem.size)
+width,height = imagem.size
+print(width)
+print(height)
+print(imagem.filename)
+print(imagem.format)
+print(imagem.format_description)
