@@ -1,5 +1,5 @@
 import FreeSimpleGUI as sg
-
+import PIL as 
 layout = [
     [sg.Menu([['Arquivo',['Abrir','fechar']],['ajuda',['sobre']]])],
     [sg.Image(key='-IMAGE-',size=(800,600)),]

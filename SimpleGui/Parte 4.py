@@ -28,3 +28,4 @@ while True:
 
 janela.close()
 
+#tem que ter sobre a imagem salvar e o sobre é da original
