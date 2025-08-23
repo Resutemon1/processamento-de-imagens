@@ -93,8 +93,10 @@ while True:
         filename = sg.popup_get_file('Save file as...', save_as=True, no_window=True,file_types=(('png', '*.png'), ('All Files', '*.*')),initial_folder='.')
         if filename:
             try:
+                with open(filename, 'w') as f:
+                    f.write("This is some content to be saved.")
                 sg.popup_ok(f"arquivo salvo com sucesso {filename}")
             except Exception as e:
                 sg.popup_error(f"Erro ao salvar: {e}")
 
-#tem que ter sobre a imagem salvar e o sobre é da original
+#tem que ter sobre a imagem salvar e o sobre é da originalgit
