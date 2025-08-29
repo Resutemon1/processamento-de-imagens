@@ -98,5 +98,5 @@ while True:
                 sg.popup_ok(f"arquivo salvo com sucesso {filename}")
             except Exception as e:
                 sg.popup_error(f"Erro ao salvar: {e}")
-
+#
 #tem que ter sobre a imagem salvar e o sobre é da originalgit
